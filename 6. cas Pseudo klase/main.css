@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div p a {
+    font-size: 22px;
+    color: blue;
+}
+
+div p a:link{
+    color: blue;
+
+}
+
+div p a:visited {
+    color: green;
+}
+
+div p a:hover {
+    color: purple;
+}
+
+div p a:active {
+    color: #f90;
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: indianred;
+}
+a:active {
+    color: #f90;
+}
+
+
