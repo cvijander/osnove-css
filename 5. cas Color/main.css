@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-size: 25px;
+  }
+
+  h1 {
+    /* ovo je prvi nacin */
+    color: red;
+  }
+
+  h2 {
+   /* rgb */
+   color: rgb(53,121,59);
+  }
+
+  h3 {
+    /* hex */
+    color: #ff9900;
+  }
+
+
+
