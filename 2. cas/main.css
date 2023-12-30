@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #f90;
+}
+
+#home p {
+  color: black;
+}
+
+#about p {
+    font-size: 22px;
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.orange {
+    color: orange;
+}
+
+.italic {
+    font-style: italic;
+}
+
