@@ -5,13 +5,11 @@
     width: 250px;
     height: 150px;
     padding: 10px;
-    border:10px solid red;
-    border-bottom-style: dotted;
-    border-right-style:double ;
-    border-right-color: blue;    
+    border:10px solid red;     
     font-size: 12px;
-    outline:5px solid black;
-   
+    margin: 30px auto;
+    
+    
 
 }
 
