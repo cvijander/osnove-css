@@ -1,10 +1,17 @@
+*{box-sizing: border-box;}
+
 .box {
     background-color: #f90;
     width: 250px;
     height: 150px;
-    padding: 30px;
-
-    
+    padding: 10px;
+    border:10px solid red;
+    border-bottom-style: dotted;
+    border-right-style:double ;
+    border-right-color: blue;    
+    font-size: 12px;
+    outline:5px solid black;
+   
 
 }
 
