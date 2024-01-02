@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+
+.box {
+    background-color: #f90;
+    width: 250px;
+    height: 150px;    
+    padding: 10px;
+    border:10px solid red;     
+    font-size: 12px;
+    margin: 30px auto;
+    overflow: hidden;
+    
+    
+
+}
+
