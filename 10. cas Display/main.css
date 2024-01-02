@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #f90;
+    width: 250px;
+    height: 150px;    
+    padding: 10px;
+    border:10px solid red;     
+    font-size: 12px;
+    margin: 30px auto;
+    overflow: hidden;
+    
+
+}
+   
+
+.box:first-of-type {
+    visibility: hidden;
+}
+
+/* ul {
+    list-style: none;
+} */
+
+ul li {
+    margin: 20px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f90;
+    padding: 8px;
+    margin: 20px 0;
+}
+
+.list-reset {
+    list-style: none;
+}
