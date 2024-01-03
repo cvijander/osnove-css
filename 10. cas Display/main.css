@@ -17,7 +17,7 @@
    
 
 .box:first-of-type {
-    visibility: hidden;
+    display: none;
 }
 
 /* ul {
@@ -25,6 +25,7 @@
 } */
 
 ul li {
+    display: inline;
     margin: 20px 0;
 }
 
@@ -38,4 +39,15 @@ ul li a {
 
 .list-reset {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p span {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 8px;
+    display: inline-block;
 }

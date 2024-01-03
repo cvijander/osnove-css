@@ -1,0 +1,36 @@
+
+body {
+  background-color: #fff;
+  background-image: url(../img/nature.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover ;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    border:2px dotted red;
+    background-color: rgba(255,255,255,.6);
+}
+
+#box-1 {
+    background-color: #333;
+    color: #fff;
+    border-top: 10px solid blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 30px 20px;
+    padding: 50px;
+}
+
+#box-2 {
+    background: url(../img/pattern.png) ;    
+    background-repeat: no-repeat;
+}
+
+#box-3 {
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
