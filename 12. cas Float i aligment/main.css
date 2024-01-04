@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #fff;
 }
@@ -22,4 +26,39 @@ p.center {
 
 p.justify {
     text-align: justify;
+}
+
+.box {
+    background-color: #f5f5f5;
+    padding:10px 20px ;
+    border: 1px solid tomato;
+    margin: 50px 0;
+}
+
+#box-2 {
+    width: 65%;
+    float: left;
+}
+
+#box-3 {
+    width: 30%;
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    margin-right:50px ;
+}
+
+ul.right li {
+    float: right;
+    margin-right: 50px;
 }
