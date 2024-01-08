@@ -1,7 +1,7 @@
 
 body {
     color: greenyellow;
-    background-color: tomato;
+    background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -11,3 +11,28 @@ h3 {
     color: white;
 }
 
+h2 {
+    color: #333;
+
+}
+
+p {
+    color: #f90;
+}
+
+#home p{
+    color: aquamarine;
+}
+
+#about p{
+    font-size: 22px;
+    color: rebeccapurple;
+}
+
+.orange {
+    color: orange;
+}
+
+.bold {
+    font-weight: bold;
+}
