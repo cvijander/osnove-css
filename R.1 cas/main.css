@@ -36,3 +36,33 @@ p {
 .bold {
     font-weight: bold;
 }
+
+h4 {
+    color: green;
+}
+
+h4#heading-four{
+    color :red;
+}
+
+div p {
+    font-size: 12px;
+}
+
+.boldi {
+font-weight: bold;
+}
+
+div p a {
+    color: tomato;
+    font-size: 20px;
+}
+
+div p.boldi a {
+    font-style: italic;
+}
+
+h1, h2, h3, h4 ,h5 {
+    font-size: 25px;
+    color: burlywood;
+}
