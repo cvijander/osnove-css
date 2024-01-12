@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 body {
     color: greenyellow;
     background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;    
 
 }
 
@@ -65,4 +67,78 @@ div p.boldi a {
 h1, h2, h3, h4 ,h5 {
     font-size: 25px;
     color: burlywood;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(0,0,0);
+}
+
+h3 {
+    color: #f90;
+}
+
+div p a {
+    font-size: 22px;
+    color:blue
+}
+div p a:link{
+    color: blue;
+}
+
+div p a:visited {
+    color: green;
+}
+
+div p a:hover {
+   color:purple
+}
+
+div p a:active {
+    color: #f90;
+}
+
+.box {
+    background-color: #f90;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+    border: 10px double black;
+    box-sizing: border-box;
+    margin: 30px;
+
+
+}
+
+.box p {
+    color: aquamarine;
+}
+
+
+
+ul li {
+    margin: 20px 0;
+    display: inline;
+    
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #f90;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
