@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cc9966;
+}
+
+.container {
+    width: 990px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px;
+    
+}
+
+header {
+    height: 150px;
+    background-color: #066e14;
+    
+}
+
+nav {
+    height: 50px;
+    background-color: #492501;
+    margin: 15px 0;
+}
+
+main {
+    width: 660px;
+    height: 600px;
+    background-color: #e6e6e6;
+    float: left;
+    margin-bottom: 15px;
+}
+
+aside{
+    width: 290px;
+    height: 600px;
+    background-color: #ccc999;
+    float: right;
+}
+
+footer {
+    height: 50px;
+    background-color: #492501;
+    clear: both;
+}
+
